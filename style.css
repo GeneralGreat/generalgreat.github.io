@@ -1,9 +1,9 @@
 * {
     font-family: sans-serif;;
-
+    color:#CF2E2E;
 }
 body {
-    background-color: #4CDEF5;
+    background-color: #333A56;
     margin: 0px;
     /*position: fixed;*/
     overflow: hidden;
@@ -16,7 +16,7 @@ body {
     float: left;
     width: 100%;
     height: auto;
-    background-color: #A4D555;
+    background-color: #F7F5E6;
     text-align: center;
 }
 .header > h2 {
@@ -32,18 +32,19 @@ body {
 .header > a {
     float: right;
     padding: 10px;
-    margin: 0px;
+    margin: 10px;
     margin-left: 20px;
     margin-right: 50px;
     display: inline-block;
-    background-color: #29BF51;
+    background-color: #E8E8E8;
 }
 a {
-    transition: background-color .3s;
+    transition: background-color .75s;
     text-decoration: none;
+    /*color: #000;*/
 }
 a:hover {
-    background-color: #00C3FE;
+    background-color: #333A56;
 }
 .profile {
     width: 575px;
