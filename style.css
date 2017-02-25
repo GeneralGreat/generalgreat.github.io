@@ -36,7 +36,10 @@ body {
     margin-left: 20px;
     margin-right: 50px;
     display: inline-block;
-    background-color: #E8E8E8;
+    background-color: #F7F5E6;
+    border: 3px solid #333A56;
+    border-radius: 6px;
+    padding: 11px;
 }
 a {
     transition: background-color .75s;
