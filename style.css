@@ -98,9 +98,10 @@ li > svg {
 }
 
 .icon:hover {
-  opacity: 0.6;
-  -webkit-animation: rotate 1s;
-  animation: rotate 1s;
+    transition: background-color .75s;
+    -webkit-animation: rotate 1s;
+    animation: rotate 1s;
+    background-color: #CF2E2E;
 }
 @-webkit-keyframes rotate {
     100% {-webkit-transform: rotate(360deg); -ms-transform: rotate(360deg);}
